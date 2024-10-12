@@ -38,18 +38,8 @@ const Auth = ({ setUserAuthenticated }) => {
     <div className="flex min-h-screen">
       <div className="flex flex-col justify-between w-1/2 bg-gray-100 p-8">
         <div className="flex items-start">
-          <img
-            src="../../../src/logo.jpg" 
-            alt="Quizo Logo"
-            className="w-30 h-20 items-center"
-          />
           <h1 className="text-4xl font-bold ml-4 text-black">Quizo</h1>
         </div>
-        <img
-          src="../../../src/leftimage.svg" 
-          alt="Representation"
-          className="w-full h-3/4 object-cover mt-4"
-        />
       </div>
 
     
