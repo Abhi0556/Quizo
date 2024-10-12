@@ -39,13 +39,18 @@ const Auth = ({ setUserAuthenticated }) => {
       <div className="flex flex-col justify-between w-1/2 bg-gray-100 p-8">
         <div className="flex items-start">
         <img
-            src="../../../src/logo.jpg" 
+            src="https://github.com/Abhi0556/Quizo/blob/8f8b5d578eda60c891111f87a3b188fdedb6f7fe/src/logo.jpg" 
+            alt="Quizo Logo"
+            className="w-30 h-20 items-center"
+          />
+          <h1 className="text-4xl font-bold ml-4 text-black">Quizo</h1>
+        </div>
+        <img
+            src="https://github.com/Abhi0556/Quizo/blob/8f8b5d578eda60c891111f87a3b188fdedb6f7fe/src/leftimage.svg" 
             alt="Quizo Logo"
             className="w-30 h-20 items-center"
           />
 
-          <h1 className="text-4xl font-bold ml-4 text-black">Quizo</h1>
-        </div>
       </div>
 
     
